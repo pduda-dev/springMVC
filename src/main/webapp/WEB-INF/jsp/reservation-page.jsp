@@ -20,6 +20,20 @@
     Lunch<form:checkbox path="Food" value="Lunch"/>
     Dinner<form:checkbox path="Food" value="Dinner"/>
     <br><br>
+    Leaving from: <form:select path="cityFrom">
+    <form:option value="Ghaziabad" label="Ghaziabad"/>
+    <form:option value="Modinagar" label="Modinagar"/>
+    <form:option value="Meerut" label="Meerut"/>
+    <form:option value="Amristar" label="Amristar"/>
+</form:select>
+    <br><br>
+    Going to: <form:select path="cityTo">
+    <form:option value="Ghaziabad" label="Ghaziabad"/>
+    <form:option value="Modinagar" label="Modinagar"/>
+    <form:option value="Meerut" label="Meerut"/>
+    <form:option value="Amristar" label="Amristar"/>
+</form:select>
+    <br><br>
     <input type="submit" value="Submit" />
 </form:form>
 </body>
