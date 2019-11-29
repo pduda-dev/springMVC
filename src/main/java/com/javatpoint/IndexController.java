@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
 
-    @RequestMapping("/auuu")
-    public String auuu() {
-        return "hwdp";
+    @RequestMapping("/test")
+    public String index() {
+        return "test";
     }
 }
