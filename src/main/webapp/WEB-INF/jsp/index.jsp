@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Railway Registration Form</title>
+</head>
 <body>
-<form action="hello">
-    UserName : <input type="text" name="name"/> <br><br>
-    Password : <input type="text" name="pass"/> <br><br>
-    <input type="submit" name="submit">
-</form>
+<a href="reservation/bookingForm">Click here for reservation.</a>
 </body>
 </html>
